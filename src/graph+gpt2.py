@@ -99,7 +99,7 @@ def main(cfg: DictConfig):
 	
 
 if__name__ = 'main':
-  ma
+  main()
 
 
 
