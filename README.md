@@ -1,6 +1,6 @@
 # Source code mapping to Natural Language
 
-The relevant files for mapping tasks are organized accordingly:
+The relevant files for mapping tasks between Source code and Natural Language are organized accordingly:
 
 ```
 ├── Source code mapping:
