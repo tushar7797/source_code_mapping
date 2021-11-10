@@ -1,33 +1,17 @@
-# Composable-goals-circuit-rl
+# Source code mapping to Natural Language
+
+The relevant files are organized accordingly:
 
 ```
-├── Optimus
-   └── code
-       ├── examples
-           ├── big_ae
-               ├── modules
-                   ├── vae.py
-                   └── ...
-               ├── run_lm_vae_pretraining_phdist_beta.py
-               ├── run_lm_vae_training.py
-               └── ...
-	   ├── pytorch_transformers
-               ├── modeling_bert.py
-               ├── modeling_gpt2.py
-               └── ...
-       ├── scripts
-           ├── scripts_docker
-	   ├── scripts_local
-	   ├── scripts_philly
-   └── data
-       └── datasets
-           ├── wikipedia_json_64_filtered
-               └── ...
-	   ├── snli_data
-           └── ...
-   └── output
-       ├── pretrain
-       ├── LM
-       └── ...   
+├── Source code mapping:
+	├── models: Contains all the relevant models used
+	   ├── base_classes.py:  BERT + attention with GNN, Sinkhorn iterations (Optimal Transport)
+	   ├── graphs.py: GNN architecture and related functions
+	   ├── gpt2.py: Base GPT2 File
+	   ├── GPT2_valuehead.py: Value head for GPT2 reinforcement Learning
+	   ├── ppo.py: Training for GPT2 reinforcement Learning
+	├── Cross_Embedding:
+	   ├── graph_src.py
+	   ├── natural_lang.py: Source code, Natural language modeling and Mapping between the two
  
 ```
