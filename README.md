@@ -7,6 +7,7 @@ The relevant files for mapping tasks are organized accordingly:
 	├── models: Contains all the relevant models used
 	   ├── base_classes.py:  BERT + attention with GNN, Sinkhorn iterations (Optimal Transport)
 	   ├── graphs.py: GNN architecture and related functions
+	   └── ...
 	   
 	├── Cross_Embedding:
 	   ├── graph_src.py
@@ -14,7 +15,7 @@ The relevant files for mapping tasks are organized accordingly:
  
 ```
 
-The relevant files for mapping tasks are organized accordingly:
+The relevant files for code completion tasks are organized accordingly:
 
 ```
 ├── Source code mapping:
@@ -23,6 +24,7 @@ The relevant files for mapping tasks are organized accordingly:
 	   ├── GPT2_valuehead.py: Training for GPT2 reinforcement Learning
 	   ├── ppo.py: Base file for GPT2 reinforcement Learning
 	   ├── graph+gpt2.py: Training for Graph and GPT2 
+	   └── ...
 	
  
 ```
