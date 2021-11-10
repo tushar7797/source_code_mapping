@@ -1,0 +1,7 @@
+
+data_address : "/content/drive/My Drive/SemProjectFiles/data.tar.zip"
+lr : 1e-5
+batch_size : 16
+
+
+

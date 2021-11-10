@@ -1,0 +1,4 @@
+data_address : "/content/drive/My Drive/SemProjectFiles/data.tar.zip"
+graph_address : '/content/drive/My Drive/SemProject/programs_eval.json'
+lr : 1e-5
+batch_size : 16
